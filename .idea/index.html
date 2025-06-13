@@ -3,40 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>餅餅的網站</title>
+  <title>Sung Han Bin</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<header>
+  <div class="logo">ZEROBASONE</div>
+  <nav>
+    <ul>
+      <li><a href="#news">新消息</a></li>
+      <li><a href="#about">關於我</a></li>
+      <li><a href="#gallery">照片區</a></li>
+    </ul>
+  </nav>
+</header>
 
-<!-- 導覽列 -->
-<nav>
-  <ul>
-    <li><a href="#home">首頁</a></li>
-    <li><a href="#about">關於我</a></li>
-    <li><a href="#contact">聯絡我</a></li>
-  </ul>
-</nav>
-
-<!-- 首頁封面 -->
-<section id="home" class="cover">
-  <img src="img1.jpg" id="cover-image" alt="封面圖片">
-  <button onclick="changeCoverImage()">更換封面</button>
+<section class="banner">
+  <img src="img1.jpg" alt="Sung Han Bin 1">
+  <img src="img2.jpg" alt="Sung Han Bin 2">
 </section>
 
-<!-- 關於我 -->
+<section id="news" class="news">
+  <h2>新消息</h2>
+  <ul>
+    <li>6/04 C5 WWY EP2</li>
+    <li>6/05 (三) 15:33 海報拍攝直播</li>
+    <li>18:00 MCountdown HAMC 舞台</li>
+    <li>6/08 14:00 Yonsei University 演出</li>
+    <li>6/10 C5 WWY EP3</li>
+    <li>6/12 (三) 15:33 海報拍攝直播</li>
+    <li>6/13 (四) 成韓彬生日</li>
+  </ul>
+  <div class="news-img">
+    <img src="img3.jpg" alt="Sung Han Bin 3">
+    <img src="img4.jpg" alt="Sung Han Bin 4">
+  </div>
+</section>
+
 <section id="about" class="about">
   <h2>關於我</h2>
-  <img src="img3.jpg" id="about-image" alt="關於我的圖片">
-  <button onclick="changeAboutImage()">更換圖片</button>
-  <p>這裡是我的簡介，可以輸入一些自我介紹的文字。</p>
+  <div class="about-content">
+    <img src="img1.jpg" alt="Sung Han Bin Profile">
+    <div class="about-text">
+      <p>成韓彬</p>
+      <p>生日：2001年6月13日</p>
+      <p>專長：舞蹈 - HipHop、Waacking</p>
+      <p>代表：2023年出道 ZEROBASEONE 隊長</p>
+      <p>粉絲名：Ruby</p>
+    </div>
+  </div>
 </section>
 
-<!-- 聯絡我 -->
-<section id="contact" class="contact">
-  <h2>聯絡我</h2>
-  <p>這裡可以放你的聯絡資訊或表單。</p>
+<section id="gallery" class="gallery">
+  <h2>照片區</h2>
+  <div class="gallery-images">
+    <img src="gallery1.jpg" alt="Gallery Image 1">
+    <img src="gallery2.jpg" alt="Gallery Image 2">
+    <img src="gallery3.jpg" alt="Gallery Image 3">
+  </div>
 </section>
 
-<script src="script.js"></script>
 </body>
 </html>
